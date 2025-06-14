@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhenWillIDie?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+        <div id="typewriter">
+            <h1 id="headn"></h1>
+        </div>
+    
+        <div>
+            <form id="deathform">
+                <label>
+                    Name:    
+                    <input type="text" id="name" required>
+                </label>
+                <label>Gender:</label>
+                <div class="gender-group">
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+
+                <label>
+                    Date of birth:
+                    <input type="date" id="dob" required>
+                </label>
+                <label>
+                    Country:
+                    <input type="text" id="country" required>
+                </label>
+    
+                <button type="submit" id="know"> Know </button>
+            </form>
+        </div>
+    
+        <div>
+            <p id="countdown"></p>
+        </div>
+
+    </main>
+
+    <footer>
+        For entertainment purpose only....
+    </footer>
+
+    <script src="logic.js"></script>
+</body>
+</html>
